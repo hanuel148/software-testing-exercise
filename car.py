@@ -14,6 +14,7 @@ class Car:
             self.speed += change
 
         self.step()
+        
 
     def get_current_speed(self):
         return self.speed
